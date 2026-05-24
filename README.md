@@ -4,6 +4,7 @@ stm32 based RFID system.
 - Runs off a STM32f411ret arm microcontroller with a EM4095 for the RFID demodulation and writing modulation.
 - Includes a USB-C receptacle for both power and data transfer to the STM32
 - Includes a 4 pin connecter for programing with a STlink
+- 520 uH coil connected in series accross 4 layers to minimize space while maximising Q
 # Schematics
 - [RFID-Read-Write-Schematic.pdf](https://github.com/user-attachments/files/28185533/RFID-Read-Write-Schematic.pdf)
 <img width="2144" height="1220" alt="RFID-Read-Write-Front" src="https://github.com/user-attachments/assets/841d6eff-d99a-43e9-9030-6bca2c46e097" />
